@@ -1,1 +1,2 @@
-# tech_world_web
+## college projects and exercises ##
+  # technology in systems analysis and development #

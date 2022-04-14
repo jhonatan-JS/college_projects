@@ -19,7 +19,7 @@ void fibonacci(int qtdTermos) {
 int main()
 {
   int qtdTermos;
-  printf("Quantos termos deseja conferir? \n");
+  printf("Quantos termos de fibonacci deseja conferir? \n");
   scanf("%d", &qtdTermos);
   fibonacci(qtdTermos);
   return 0;

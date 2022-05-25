@@ -10,8 +10,10 @@
 # Project Wise Id
 
 <h1 align="center">
-  <p>🔗version: 03</p>
+  <p>version: 03</p>
 </h1>
+
+![Badge em Desenvolvimento](EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Project Features
 

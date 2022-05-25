@@ -1,12 +1,3 @@
-## college projects and exercises ##
-  # technology in systems analysis and development #
-
-# Seu título aqui
-
-
-
-
-
 # Project Wise Id
 
 <h1 align="center">

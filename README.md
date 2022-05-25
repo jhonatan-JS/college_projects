@@ -13,10 +13,6 @@
   <p>version: 03</p>
 </h1>
 
-(#Título-e-Imagem-de-capa)
-
-![Badge em Desenvolvimento](#EM%20DESENVOLVIMENTO&color=GREEN)
-
 ## Project Features
 
 - [x] Preview Import File

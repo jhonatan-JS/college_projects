@@ -1,12 +1,16 @@
 ## college projects and exercises ##
   # technology in systems analysis and development #
 
+# Seu título aqui
+
+
+
 
 
 # Project Wise Id
 
 <h1 align="center">
-  <p>version 03</p>
+  <p>🔗version: 03</p>
 </h1>
 
 ## Project Features
@@ -15,9 +19,12 @@
 - [x] Menu Planograma
 - [x] List Store User
 - [ ] Fetch Data From Api
+- [ ] Status TV
 
-## Build Setup
-# Seu título aqui
+
+
+
+
 
 <h1 align="center"> Seu título aqui </h1>
 

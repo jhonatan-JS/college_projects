@@ -60,5 +60,5 @@
 
 ## Autores
 
-| [<img src="" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img src="" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| [<img src="" width=115><br><sub>Lucas</sub>](https://github.com/camilafernanda) |  [<img src="" width=115><br><sub>Jhonatan</sub>](https://github.com/guilhermeonrails) |  [<img src="" width=115><br><sub>Thiago</sub>](https://github.com/alexfelipe) |
 | :---: | :---: | :---: |

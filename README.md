@@ -15,7 +15,10 @@
 - [ ] Status TV
 
 
-
+- [Configuração para servidores](/server.md)
+- [Passo a Passo](/steps.md)
+- [Passo a Passo Rails 6](/steps_rails_6.md)
+- [Update Ruby 2.3.1 Para 2.3.3](/ruby-2.3.1-to-2.3.3.md)
 
 
 

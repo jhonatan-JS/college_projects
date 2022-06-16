@@ -56,45 +56,6 @@ void imprimeTodasDespesas(Despesa *listaDespesas){
     }
 }
 
-void imprimeDespesaPorId(Despesa *listaDespesas, int id){
-	Despesa *p;
-	int encontrado = 0;
-	
-    printf("\n----------Despesa %d----------", id);
-    for(p = listaDespesas; p != NULL; p = p->prox){
-    	if (p->id == id) {
-    		printf("\nDespesa: %d", p->id);
-        	printf("\nDescricao: %s", p->descricao);
-        	printf("\nValor: %.2f", p->valor);
-        	printf("\nData: %d/%d/%d\n\n", p->data.dia,
-               p->data.mes, p->data.ano);
-               encontrado = 1;
-		}
-    }
-    
-    if (!encontrado) {
-    	printf("\nDespesa nao encontrada");
-	}
-}
-
-void atualizaDespesa(Despesa despesas[], int id){
-    if(despesas[id-1].id != 0){
-        imprimeDespesaPorId(despesas, id);
-        printf("\nAtualizacao da Despesa de id: %d", id);
-        printf("\nDescricao: ");
-        scanf(" %[A-z a-z 0-9]", &despesas[id-1].descricao);
-        printf("Valor: ");
-        scanf("%f", &despesas[id-1].valor);
-        printf("Data ");
-        printf("\ndia:");
-        scanf("%d", &despesas[id-1].data.dia);
-        printf("mes:");
-        scanf("%d", &despesas[id-1].data.mes);
-        printf("ano:");
-        scanf("%d", &despesas[id-1].data.ano);
-    }
-}
-
 Despesa *removeDespesa(Despesa *listaDespesas, int id){
     Despesa *ant = NULL;
     Despesa *perc = listaDespesas;
@@ -142,9 +103,7 @@ int main()
         printf("----------Sistema de Despesas----------");
         printf("\n1 - Cadastrar Despesa");
         printf("\n2 - Listar todas as despesas");
-        printf("\n3 - Atualizar Despesa");
         printf("\n4 - Remover Despesa");
-        printf("\n5 - Imprimir uma Despesa por id");
        // printf("\n6 - Listar todas as despesas por valor (Decrescente)");
         printf("\n0 - Sair\n>>");
         scanf("%d", &opcao);
@@ -171,7 +130,7 @@ int main()
             printf("\nBusca de Despesa por id\n");
             printf("Digite o id da despesa:");
             scanf("%d", &id);
-            imprimeDespesaPorId(listaDespesas, id);
+            imprimeDespesaPorId(listaDespesas);
             break;
         case 6:
 
